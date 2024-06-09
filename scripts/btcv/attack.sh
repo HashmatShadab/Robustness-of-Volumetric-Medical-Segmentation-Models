@@ -1,12 +1,15 @@
 #!/bin/bash
 
-DATA_DIR="datasets3d/btcv-synapse"
+DATA_DIR="E:\Projects_May2024\AdvTransferMed3D\datasets3d\btcv-synapse"
 JSON_LIST="dataset_synapse_18_12.json"
 SLICE_BS=3
 # Baseline Training of models on BTCV and Adv. Training (PGD-K, FGSM, GN, VAFA-3D) on BTCV
 
-ckpt_paths=("Results/unetr/data_btcv/natural/model_latest.pt" "Results/swin_unetr/data_btcv/natural/model_latest.pt" "Results/segresnet/data_btcv/natural/model_latest.pt" "Results/umamba_bot/data_btcv/natural/model_latest.pt" "Results/umamba_enc/data_btcv/natural/model_latest.pt" "Results/unet/data_btcv/natural/model_latest.pt")
-model_names=("unetr" "swin_unetr" "segresnet" "umamba_bot" "umamba_enc" "unet")
+#ckpt_paths=("Results/unetr/data_btcv/natural/model_latest.pt" "Results/swin_unetr/data_btcv/natural/model_latest.pt" "Results/segresnet/data_btcv/natural/model_latest.pt" "Results/umamba_bot/data_btcv/natural/model_latest.pt" "Results/umamba_enc/data_btcv/natural/model_latest.pt" "Results/unet/data_btcv/natural/model_latest.pt")
+#model_names=("unetr" "swin_unetr" "segresnet" "umamba_bot" "umamba_enc" "unet")
+
+ckpt_paths=("Results/unet/data_btcv/natural/model_latest.pt")
+model_names=("unet")
 
 echo "==========================================================================================="
 echo "==========================================================================================="
