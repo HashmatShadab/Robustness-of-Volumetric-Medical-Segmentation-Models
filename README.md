@@ -146,16 +146,16 @@ Available attacks: `fgsm, gn, pgd, vafa, cospgd, vmifgsm`
 
 To run the above attacks across all models and datasets, run the following scripts:
 ```python
-# Pixel and Frequency-based attacks on Volumetric Segmentation models Training on BTCV dataset
+# Pixel and Frequency-based attacks on Volumetric Segmentation models trained on BTCV dataset
 bash scripts/btcv/attacks.sh
 
-# Pixel and Frequency-based attacks on Volumetric Segmentation models Training on Hecktor dataset
+# Pixel and Frequency-based attacks on Volumetric Segmentation models trained on Hecktor dataset
 bash scripts/hecktor/attacks.sh
 
-# Pixel and Frequency-based attacks on Volumetric Segmentation models Training on ACDC dataset
+# Pixel and Frequency-based attacks on Volumetric Segmentation models trained on ACDC dataset
 bash scripts/acdc/attacks.sh
 
-# Pixel and Frequency-based attacks on Volumetric Segmentation models Training on Abdomen-CT dataset
+# Pixel and Frequency-based attacks on Volumetric Segmentation models trained on Abdomen-CT dataset
 bash scripts/abdomen/attacks.sh
 ```
 
