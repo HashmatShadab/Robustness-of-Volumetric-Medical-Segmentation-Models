@@ -107,7 +107,6 @@ The logs and trained models will be saved in the `Results` folder with the follo
 
 ### 1. White box Attacks
 
-For crafting adversarial examples using Fast Gradient Sign Method (FGSM) at perturbation budget of 8/255, run:
 ```python
 # Pixel-based PGD attack on Volumetric Segmentation models
 python wb_attack.py  --model_name <MODEL_NAME>   --in_channels 1 --out_channel <NUM_CLASSES>  --checkpoint_path <MODEL_CKPT_PATH> --dataset <DATASET_NAME> 
@@ -159,31 +158,41 @@ bash scripts/acdc/attacks.sh
 bash scripts/abdomen/attacks.sh
 ```
 
+In the above scripts replace the following arguments:
 
-The generated adversarial images will be saved in the same folder as from where the model checkpoint was loaded.
+`<DATA_DIR>`: Path to the dataset
+
+`<model_names>`: name of the models and their corresponding checkpoints in `<ckpt_paths>`
+
+
+
+The generated adversarial images and logs will be saved in the same folder as from where the model checkpoint was loaded.
 
 ### 2. White box Frequency Attacks
 
-#### Low-Pass Frequency Attack
-For crafting adversarial examples using Projected Gradient Descent (PGD) at perturbation budget of 8/255 with number of attacks steps equal to 20, run:
-```python
-cd  classification/
-python generate_adv_images.py --data_dir <path to dataset> --attack_name pgd  --source_model_name <model_name> --epsilon 8 --attack_steps 20 --filter True --filter_preserve low 
-```
-#### High-Pass Frequency Attack
-For crafting adversarial examples using Projected Gradient Descent (PGD) at perturbation budget of 8/255 with number of attacks steps equal to 20, run:
-```python
-cd  classification/
-python generate_adv_images.py --data_dir <path to dataset> --attack_name pgd  --source_model_name <model_name> --epsilon 8 --attack_steps 20 --filter True --filter_preserve high
-```
-The results will be saved in  `AdvExamples_freq_results` folder.
+After generating adversarial examples using the above scripts, frequency analysis  can be performed on them using Low-Pass and High-Pass filters. For evaluating the robustness of volumetric segmentation models against
+low and high frequency attacks, the following scripts can be used:
 
-Run the below script to evaluate the robustness across different models against low and high frequency attacks at various perturbation budgets:
 ```python
-cd  classification/
-bash scripts/get_adv_freq_results.sh <DATA_PATH> <ATTACK_NAME> <BATCH_SIZE>
-```
+# Frequency Analysis on Volumetric Segmentation models trained on BTCV dataset
+bash scripts/btcv/attack_freq.sh
 
+# Frequency Analysis on Volumetric Segmentation models trained on Hecktor dataset
+bash scripts/hecktor/attack_freq.sh
+
+# Frequency Analysis on Volumetric Segmentation models trained on ACDC dataset
+bash scripts/acdc/attack_freq.sh
+
+# Frequency Analysis on Volumetric Segmentation models trained on Abdomen-CT dataset
+bash scripts/abdomen/attack_freq.sh
+```
+In the above scripts replace the following arguments:
+
+`<DATA_DIR>`: Path to the dataset
+
+`<model_names>`: name of the models and their corresponding checkpoints in `<ckpt_paths>`
+
+The evaluation logs will be saved in the same folder as from where the adversarial examples were loaded.
 
 ### 3. Transfer-based Black box Attacks
 
