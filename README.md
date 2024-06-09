@@ -66,6 +66,42 @@ pip install -r req.txt
 
 ## A. Training of Volumetric Segmentation Models
 
+```python
+# Training  on BTCV dataset
+ python training.py  --model_name <MODEL_NAME> --in_channels 1 --out_channel 14  --dataset btcv --data_dir=<DATA_PATH> --json_list dataset_synapse_18_12.json 
+--batch_size=3 --max_epochs 5000 --optim_lr=1e-4 --lrschedule=warmup_cosine --infer_overlap=0.5 --val_every 15 --save_model_dir="./Results"
+
+# Training  on Hecktor dataset
+ python training.py  --model_name <MODEL_NAME> --in_channels 1 --out_channel 3  --dataset hecktor --data_dir=<DATA_PATH> --json_list dataset_hecktor.json 
+--batch_size=3 --max_epochs 500 --optim_lr=1e-4 --lrschedule=warmup_cosine --infer_overlap=0.5 --val_every 15 --save_model_dir="./Results"
+
+# Training  on ACDC dataset
+ python training.py  --model_name <MODEL_NAME> --in_channels 1 --out_channel 4  --dataset acdc --data_dir=<DATA_PATH> --json_list dataset_acdc_140_20_.json 
+--batch_size=3 --max_epochs 5000 --optim_lr=1e-4 --lrschedule=warmup_cosine --infer_overlap=0.5 --val_every 15 --save_model_dir="./Results"
+
+# Training  on Abdomen-CT dataset
+ python training.py  --model_name <MODEL_NAME> --in_channels 1 --out_channel 14  --dataset abdomen --data_dir=<DATA_PATH> --json_list dataset.json 
+--batch_size=3 --max_epochs 5000 --optim_lr=1e-4 --lrschedule=warmup_cosine --infer_overlap=0.5 --val_every 15 --save_model_dir="./Results"
+```
+Follwing arguments can be passed for `--model_name`: `unet, unetr, swin_unetr, seg_resnet, umamba_bot, umamba_enc`
+
+
+To run training across all models and datasets, run the following scripts:
+```python
+# Training on BTCV dataset for all models
+bash scripts/btcv/training.sh
+
+# Training on Hecktor dataset for all models
+bash scripts/hecktor/training.sh
+
+# Training on ACDC dataset for all models
+bash scripts/acdc/training.sh
+
+# Training on Abdomen-CT dataset for all models
+bash scripts/abdomen/training.sh
+```
+The logs and trained models will be saved in the `Results` folder with the following structure: `Results/{model_name}/data_{dataset_name}/natural/`
+
 
 ## B. Robustness against Adversarial attacks
 
