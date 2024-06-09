@@ -109,17 +109,58 @@ The logs and trained models will be saved in the `Results` folder with the follo
 
 For crafting adversarial examples using Fast Gradient Sign Method (FGSM) at perturbation budget of 8/255, run:
 ```python
-python generate_adv_images.py --data_dir <path to dataset> --attack_name fgsm  --source_model_name <model_name> --epsilon 8  
+# Pixel-based PGD attack on Volumetric Segmentation models
+python wb_attack.py  --model_name <MODEL_NAME>   --in_channels 1 --out_channel <NUM_CLASSES>  --checkpoint_path <MODEL_CKPT_PATH> --dataset <DATASET_NAME> 
+--data_dir=<DATA_PATH> --json_list <DATA_JSON_FILE>  --attack_name pgd --eps 8  --steps 20
+
+# Pixel-based CosPGD attack on Volumetric Segmentation models
+python wb_attack.py  --model_name <MODEL_NAME>   --in_channels 1 --out_channel <NUM_CLASSES>  --checkpoint_path <MODEL_CKPT_PATH> --dataset <DATASET_NAME> 
+--data_dir=<DATA_PATH> --json_list <DATA_JSON_FILE>  --attack_name cospgd --eps 8  --steps 20
+
+# Pixel-based FGSM attack on Volumetric Segmentation models
+python wb_attack.py  --model_name <MODEL_NAME>   --in_channels 1 --out_channel <NUM_CLASSES>  --checkpoint_path <MODEL_CKPT_PATH> --dataset <DATASET_NAME> 
+--data_dir=<DATA_PATH> --json_list <DATA_JSON_FILE>  --attack_name fgsm --eps 8  
+
+# Pixel-based GN attack on Volumetric Segmentation models
+python wb_attack.py  --model_name <MODEL_NAME>   --in_channels 1 --out_channel <NUM_CLASSES>  --checkpoint_path <MODEL_CKPT_PATH> --dataset <DATASET_NAME> 
+--data_dir=<DATA_PATH> --json_list <DATA_JSON_FILE>  --attack_name fgsm --std 8  
+
+# Frequency-based VAFA attack on Volumetric Segmentation models
+python wb_attack.py  --model_name <MODEL_NAME>   --in_channels 1 --out_channel <NUM_CLASSES>  --checkpoint_path <MODEL_CKPT_PATH> --dataset <DATASET_NAME> 
+--data_dir=<DATA_PATH> --json_list <DATA_JSON_FILE>  --attack_name vafa-3d - --q_max 30 --steps 20 --block_size 32 32 32 --use_ssim_loss True
 ```
-For crafting adversarial examples using Projected Gradient Descent (PGD) at perturbation budget of 8/255 with number of attacks steps equal to 20, run:
+
+Available attacks: `fgsm, gn, pgd, vafa, cospgd, vmifgsm`
+
+`--eps`: Perturbation budget for Pixel-based adversarial attacks
+    
+`--std`: Perturbation budget for Gaussian Noise attack
+    
+`--q_max`: Maximum quantization level for VAFA attack
+    
+`--block_size`: Block size for VAFA attack
+    
+`--use_ssim_loss`: Use SSIM loss for VAFA attack
+    
+`--steps`: Number of attack steps for PGD-based attacks
+
+To run the above attacks across all models and datasets, run the following scripts:
 ```python
-python generate_adv_images.py --data_dir <path to dataset> --attack_name pgd  --source_model_name <model_name> --epsilon 8 --attack_steps 20 
+# Pixel and Frequency-based attacks on Volumetric Segmentation models Training on BTCV dataset
+bash scripts/btcv/attacks.sh
+
+# Pixel and Frequency-based attacks on Volumetric Segmentation models Training on Hecktor dataset
+bash scripts/hecktor/attacks.sh
+
+# Pixel and Frequency-based attacks on Volumetric Segmentation models Training on ACDC dataset
+bash scripts/acdc/attacks.sh
+
+# Pixel and Frequency-based attacks on Volumetric Segmentation models Training on Abdomen-CT dataset
+bash scripts/abdomen/attacks.sh
 ```
-Other available attacks: `fgsm, gn, pgd, vafa, cospgd, vmifgsm`
 
 
-The results will be saved in  `AdvExamples_results` folder with the following structure: `AdvExamples_results/pgd_eps_{eps}_steps_{step}/{source_model_name}/accuracy.txt`
-
+The generated adversarial images will be saved in the same folder as from where the model checkpoint was loaded.
 
 ### 2. White box Frequency Attacks
 
