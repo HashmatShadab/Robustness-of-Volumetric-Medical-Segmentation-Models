@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATA_DIR="E:\Projects_May2024\AdvTransferMed3D\datasets3d\btcv-synapse"
+DATA_DIR="datasets3d\btcv"
 JSON_LIST="dataset_synapse_18_12.json"
 SLICE_BS=3
 # Baseline Training of models on BTCV and Adv. Training (PGD-K, FGSM, GN, VAFA-3D) on BTCV
