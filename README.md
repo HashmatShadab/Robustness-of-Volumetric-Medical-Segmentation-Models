@@ -91,7 +91,7 @@ pip install -r req.txt
 3. ACDC: `acdc`
 4. Abdomen-CT: `abdomen`
 
-Download the datasets from [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/hashmat_malik_mbzuai_ac_ae/EgoYFgwWOrpIqD6kgNBkyQcBGMTyyRfaweZHGidJNZ1n1g?e=jqghVo) and put the in the `datasets3d` folder. 
+Download the datasets from [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/hashmat_malik_mbzuai_ac_ae/EgoYFgwWOrpIqD6kgNBkyQcBGMTyyRfaweZHGidJNZ1n1g?e=jqghVo) and put them in the `datasets3d` folder. 
 
 Copy the json files from `json_files` folder  and put them in the respective dataset folder.
 
