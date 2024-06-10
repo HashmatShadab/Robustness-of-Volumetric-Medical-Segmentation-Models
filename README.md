@@ -40,6 +40,8 @@ and [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&h
 4) [Robustness against White-Box Attacks](#Robustness-against-White-Box-Attacks)
 5) [Robustness against Transfer-Based Black-Box Attacks](#Robustness-against-Transfer-Based-Black-Box-Attacks)
 6) [BibTeX](#bibtex)
+7) [Contact](#contact)
+8) [References](#references)
 
 <hr>
 <hr>
@@ -274,15 +276,20 @@ bash scripts/abdomen/transferability.sh
 ```bibtex
 
 ```
-<a name="license"/>
+
 <hr />
 
-## Contact
+<a name="contact"/>
+
+## 📧 Contact
 Should you have any question, please create an issue on this repository or contact at hashmat.malik@mbzuai.ac.ae
 
 <hr />
 
-## References
+<a name="references"/>
+
+## 📚 References
+
 Our code is based on [VAFA](https://github.com/asif-hanif/vafa?tab=readme-ov-file), [On the Adversarial Robustness of Visual Transformer](https://github.com/RulinShao/on-the-adversarial-robustness-of-visual-transformer) and [monai](https://github.com/Project-MONAI/MONAI) libray. We thank them for open-sourcing their codebase.
 
 
