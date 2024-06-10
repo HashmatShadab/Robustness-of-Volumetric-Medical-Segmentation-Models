@@ -21,7 +21,7 @@ Official PyTorch implementation
 <hr />
 
 
-# :rocket: News
+# :fire: News
 * **(June 11, 2024)**
   * Training and evaluation codes are released.
 <hr />
