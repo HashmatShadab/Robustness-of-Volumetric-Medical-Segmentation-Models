@@ -270,6 +270,7 @@ bash scripts/acdc/transferability.sh
 # Transferability of Abdomen-CT adversarial examples across all models
 bash scripts/abdomen/transferability.sh
 ```
+The evaluation logs for target models will be saved in the same folder as from where the adversarial examples were loaded.
 
 
 
