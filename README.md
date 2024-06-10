@@ -91,7 +91,9 @@ pip install -r req.txt
 3. ACDC: `acdc`
 4. Abdomen-CT: `abdomen`
 
-Copy the json files from `json_files` folder to the respective dataset folder.
+Download the datasets from [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/hashmat_malik_mbzuai_ac_ae/EgoYFgwWOrpIqD6kgNBkyQcBGMTyyRfaweZHGidJNZ1n1g?e=jqghVo) and put the in the `datasets3d` folder. 
+
+Copy the json files from `json_files` folder  and put them in the respective dataset folder.
 
 
 <a name="Training-of-Volumetric-Segmentation-Models"/>
