@@ -85,7 +85,10 @@ pip install -r req.txt
 
 Copy the json files from `json_files` folder to the respective dataset folder.
 
-## A. Training of Volumetric Segmentation Models
+
+<a name="Training-of-Volumetric-Segmentation-Models"/>
+
+## 🚀 Training of Volumetric Segmentation Models
 
 ```python
 # Training  on BTCV dataset
@@ -124,7 +127,9 @@ bash scripts/abdomen/training.sh
 The logs and trained models will be saved in the `Results` folder with the following structure: `Results/{model_name}/data_{dataset_name}/natural/`
 
 
-## B. Robustness against Adversarial attacks
+<a name="Robustness-against-White-Box-Attacks"/>
+
+## 🛡️ Robustness against White-Box Attacks
 
 ### 1. White box Attacks
 
@@ -215,7 +220,10 @@ In the above scripts replace the following arguments:
 
 The evaluation logs will be saved in the same folder as from where the adversarial examples were loaded.
 
-### 3. Transfer-based Black box Attacks
+
+<a name="Robustness-against-Transfer-Based-Black-Box-Attacks"/>
+
+## 🛡️ Robustness against Transfer-Based Black-Box Attacks
 
 After generating adversarial examples using the above scripts, the transferability of adversarial examples can be reported by evaluating them on any other model trained on the same dataset.
 To evaluate any model on the adversarial examples, run the following script:
