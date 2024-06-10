@@ -11,48 +11,6 @@ model_names=("unetr" "swin_unetr" "segresnet" "umamba_bot" "umamba_enc" "unet")
 echo "==========================================================================================="
 echo "==========================================================================================="
 
-echo "********************************Running Attack on Abdomen CT*********************************"
-
-
-for ((i=0; i<6; i++)); do
-
-   model_name=${model_names[$i]}
-   ckpt_path=${ckpt_paths[$i]}
-
-   echo "==========================================================================================="
-   echo "Loading Model $model_name with Checkpoint $ckpt_path"
-
-   # check if the checkpoint path exists
-    if [ ! -f $ckpt_path ]; then
-      echo "Checkpoint path $ckpt_path does not exist. Skipping..."
-      continue
-    fi
-
-
-  echo "CosPGD Attack on Abdomen CT with PGD eps 4 $model_name"
-  python wb_attack.py  --model_name $model_name   --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-  --dataset abdomen --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size $SLICE_BS  \
-  --attack_name cospgd --eps 4 --q_max 20 --steps 20 --block_size 32 32 32 --use_ssim_loss False \
-
-  echo "-------------------------------------------------------------------------------------------"
-
-
-  echo "CosPGD Attack on Abdomen CT with PGD eps 8 $model_name"
-  python wb_attack.py  --model_name $model_name   --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-  --dataset abdomen --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size $SLICE_BS  \
-  --attack_name cospgd --eps 8 --q_max 20 --steps 20 --block_size 32 32 32 --use_ssim_loss False \
-
-  echo "-------------------------------------------------------------------------------------------"
-
-
-
-  done
-
-
-# use echo to have a clear separation between different experiments
-
-echo "==========================================================================================="
-echo "==========================================================================================="
 echo "********************************Running Inference on Abdomen CT*********************************"
 
 
@@ -88,7 +46,7 @@ for ((j=0; j<6; j++)); do
   fi
 
   # Loop over all the folders in parent directory starting with "Adv"
-  for adv_dir in $surrogate_parent_dir/Adv*/abdomen/*cospgd*; do
+  for adv_dir in $surrogate_parent_dir/Adv*/abdomen/*; do
     # run code only if the folder exists
     if [ -d "$adv_dir" ]; then
 
@@ -103,4 +61,5 @@ for ((j=0; j<6; j++)); do
     done
   done
 done
+
 
