@@ -227,8 +227,8 @@ The evaluation logs will be saved in the same folder as from where the adversari
 
 ## 🛡️ Robustness against Transfer-Based Black-Box Attacks
 
-After generating adversarial examples using the above scripts, the transferability of adversarial examples can be reported by evaluating them on any other model trained on the same dataset.
-To evaluate any model on the adversarial examples, run the following script:
+After generating adversarial examples using a surrogate model, the transferability of adversarial examples can be reported by evaluating them on unseen target models trained on the same dataset.
+To evaluate any target model on the adversarial examples, run the following script:
 
 ```python
 # Transferability on BTCV adversarial examples
