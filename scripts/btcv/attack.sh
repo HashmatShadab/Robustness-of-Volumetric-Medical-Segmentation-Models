@@ -46,6 +46,21 @@ for ((i=0; i<6; i++)); do
 
   echo "-------------------------------------------------------------------------------------------"
 
+  echo "CosPGD Attack on BTCV with  eps 4 $model_name"
+  python wb_attack.py  --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
+  --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size $SLICE_BS  \
+  --attack_name cospgd --eps 4 --q_max 20 --steps 20 --block_size 32 32 32 --use_ssim_loss False \
+
+  echo "-------------------------------------------------------------------------------------------"
+
+
+  echo "CosPGD Attack on BTCV with  eps 8 $model_name"
+  python wb_attack.py  --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
+  --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size $SLICE_BS  \
+  --attack_name cospgd --eps 8 --q_max 20 --steps 20 --block_size 32 32 32 --use_ssim_loss False \
+
+  echo "-------------------------------------------------------------------------------------------"
+
 
 
   echo "PGD Attack on BTCV with FGSM eps 4 $model_name"
