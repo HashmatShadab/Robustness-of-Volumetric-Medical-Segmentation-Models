@@ -157,7 +157,7 @@ python wb_attack.py  --model_name <MODEL_NAME>   --in_channels 1 --out_channel <
 --data_dir=<DATA_PATH> --json_list <DATA_JSON_FILE>  --attack_name vafa-3d - --q_max 30 --steps 20 --block_size 32 32 32 --use_ssim_loss True
 ```
 
-Available attacks: `fgsm, gn, pgd, vafa, cospgd, vmifgsm`
+Available attacks: Fast Gradient Sign Method ([FGSM](https://arxiv.org/abs/1412.6572)), Projected Gradient Descent ([PGD](https://arxiv.org/abs/1706.06083)), Cosine Projected Gradient Descent ([CosPGD](https://arxiv.org/abs/2302.02213)), Gaussian Noise (GN), and Volumetric Adversarial Frequency Attack ([VAFA](https://arxiv.org/abs/2307.07269))
 
 `--eps`: Perturbation budget for Pixel-based adversarial attacks
     
@@ -169,7 +169,7 @@ Available attacks: `fgsm, gn, pgd, vafa, cospgd, vmifgsm`
     
 `--use_ssim_loss`: Use SSIM loss for VAFA attack
     
-`--steps`: Number of attack steps for PGD-based attacks
+`--steps`: Number of attack steps for iterative attacks
 
 To run the above attacks across all models and datasets, run the following scripts:
 ```python
