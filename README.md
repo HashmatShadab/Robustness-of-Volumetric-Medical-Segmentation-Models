@@ -1,5 +1,3 @@
-The complete code with pretrained weights will be released soon. Stay Tuned!
-
 # **On Evaluating Adversarial Robustness of Volumetric Medical Segmentation Models**
 
 [Hashmat Shadab Malik](https://github.com/HashmatShadab), 
