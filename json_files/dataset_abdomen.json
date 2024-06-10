@@ -1,0 +1,429 @@
+{
+    "channel_names": {
+        "0": "CT"
+    },
+    "labels": {
+        "background": 0,
+        "liver": 1,
+        "right kidney": 2,
+        "spleen": 3,
+        "pancreas": 4,
+        "aorta": 5,
+        "inferior vena cava": 6,
+        "right adrenal gland": 7,
+        "left adrenal gland": 8,
+        "gallbladder": 9,
+        "esophagus": 10,
+        "stomach": 11,
+        "duodenum": 12,
+        "left kidney": 13
+    },
+    "numTraining": 50,
+    "file_ending": ".nii.gz",
+    "name": "Dataset701_AbdomenCT",
+    "description": "This dataset was from MICCAI FLARE 2022 Challenge. The training set contained 50 CT scans that were from the MSD Pancreas dataset and the annotations were from AbdomenCT-1K. Another 50 validation cases were from TCIA and the annotations were provided by the challenge organizers.",
+    "training": [
+        {
+            "image": "./imagesTr/FLARE22_Tr_0001_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0001_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0002_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0002_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0003_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0003_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0004_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0004_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0005_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0005_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0006_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0006_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0007_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0007_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0008_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0008_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0009_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0009_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0010_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0010_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0011_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0011_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0012_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0012_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0013_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0013_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0014_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0014_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0015_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0015_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0016_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0016_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0017_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0017_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0018_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0018_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0019_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0019_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0020_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0020_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0021_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0021_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0022_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0022_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0023_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0023_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0024_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0024_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0025_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0025_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0026_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0026_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0027_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0027_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0028_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0028_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0029_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0029_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0030_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0030_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0031_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0031_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0032_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0032_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0033_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0033_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0034_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0034_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0035_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0035_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0036_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0036_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0037_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0037_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0038_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0038_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0039_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0039_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0040_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0040_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0041_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0041_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0042_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0042_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0043_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0043_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0044_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0044_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0045_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0045_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0046_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0046_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0047_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0047_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0048_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0048_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0049_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0049_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARE22_Tr_0050_0000_resampled.nii.gz",
+            "label": "./labelsTr/FLARE22_Tr_0050_resampled.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesVal/FLARETs_0001_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0001_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0002_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0002_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0003_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0003_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0004_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0004_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0005_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0005_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0006_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0006_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0007_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0007_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0008_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0008_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0009_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0009_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0010_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0010_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0011_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0011_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0012_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0012_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0013_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0013_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0014_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0014_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0015_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0015_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0016_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0016_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0017_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0017_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0018_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0018_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0019_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0019_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0020_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0020_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0021_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0021_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0022_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0022_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0023_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0023_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0024_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0024_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0025_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0025_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0026_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0026_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0027_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0027_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0028_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0028_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0029_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0029_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0030_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0030_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0031_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0031_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0032_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0032_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0033_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0033_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0034_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0034_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0035_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0035_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0036_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0036_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0037_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0037_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0038_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0038_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0039_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0039_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0040_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0040_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0041_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0041_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0042_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0042_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0043_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0043_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0044_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0044_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0045_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0045_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0046_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0046_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0047_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0047_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0048_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0048_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0049_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0049_resampled.nii.gz"
+        },
+        {
+            "image": "./imagesVal/FLARETs_0050_0000_resampled.nii.gz",
+            "label": "./labelsVal/FLARETs_0050_resampled.nii.gz"
+        }
+    ]
+}

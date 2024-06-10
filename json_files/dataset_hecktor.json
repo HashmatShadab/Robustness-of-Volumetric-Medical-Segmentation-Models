@@ -1,0 +1,2098 @@
+{
+    "train": [
+        {
+            "image": "ct/CHUV-001_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-001_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-032_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-032_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-165_ct_trans.nii.gz",
+            "label": "gtvt/MDA-165_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-156_ct_trans.nii.gz",
+            "label": "gtvt/MDA-156_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-135_ct_trans.nii.gz",
+            "label": "gtvt/MDA-135_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-037_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-037_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-057_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-057_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-082_ct_trans.nii.gz",
+            "label": "gtvt/MDA-082_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-117_ct_trans.nii.gz",
+            "label": "gtvt/MDA-117_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-032_ct_trans.nii.gz",
+            "label": "gtvt/MDA-032_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-069_ct_trans.nii.gz",
+            "label": "gtvt/MDA-069_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-035_ct_trans.nii.gz",
+            "label": "gtvt/MDA-035_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-064_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-064_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-094_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-094_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-105_ct_trans.nii.gz",
+            "label": "gtvt/MDA-105_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-113_ct_trans.nii.gz",
+            "label": "gtvt/MDA-113_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-089_ct_trans.nii.gz",
+            "label": "gtvt/MDA-089_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-063_ct_trans.nii.gz",
+            "label": "gtvt/MDA-063_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-005_ct_trans.nii.gz",
+            "label": "gtvt/MDA-005_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-021_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-021_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-048_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-048_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-027_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-027_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-052_ct_trans.nii.gz",
+            "label": "gtvt/MDA-052_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-145_ct_trans.nii.gz",
+            "label": "gtvt/MDA-145_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-118_ct_trans.nii.gz",
+            "label": "gtvt/MDA-118_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-011_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-011_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-146_ct_trans.nii.gz",
+            "label": "gtvt/MDA-146_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-095_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-095_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-012_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-012_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-019_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-019_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-028_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-028_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-002_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-002_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-139_ct_trans.nii.gz",
+            "label": "gtvt/MDA-139_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-004_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-004_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-076_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-076_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-016_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-016_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-031_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-031_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-018_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-018_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-027_ct_trans.nii.gz",
+            "label": "gtvt/MDA-027_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-016_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-016_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-128_ct_trans.nii.gz",
+            "label": "gtvt/MDA-128_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-092_ct_trans.nii.gz",
+            "label": "gtvt/MDA-092_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-059_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-059_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-082_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-082_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-007_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-007_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-020_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-020_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-013_ct_trans.nii.gz",
+            "label": "gtvt/HMR-013_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-032_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-032_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-195_ct_trans.nii.gz",
+            "label": "gtvt/MDA-195_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-036_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-036_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-031_ct_trans.nii.gz",
+            "label": "gtvt/MDA-031_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-088_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-088_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-037_ct_trans.nii.gz",
+            "label": "gtvt/MDA-037_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-010_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-010_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-017_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-017_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-038_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-038_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-140_ct_trans.nii.gz",
+            "label": "gtvt/MDA-140_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-189_ct_trans.nii.gz",
+            "label": "gtvt/MDA-189_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-069_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-069_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-150_ct_trans.nii.gz",
+            "label": "gtvt/MDA-150_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-085_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-085_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-177_ct_trans.nii.gz",
+            "label": "gtvt/MDA-177_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-163_ct_trans.nii.gz",
+            "label": "gtvt/MDA-163_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-080_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-080_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-055_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-055_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-054_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-054_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-023_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-023_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-038_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-038_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-183_ct_trans.nii.gz",
+            "label": "gtvt/MDA-183_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-149_ct_trans.nii.gz",
+            "label": "gtvt/MDA-149_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-008_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-008_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-018_ct_trans.nii.gz",
+            "label": "gtvt/MDA-018_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-176_ct_trans.nii.gz",
+            "label": "gtvt/MDA-176_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-022_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-022_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-059_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-059_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-007_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-007_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-029_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-029_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-006_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-006_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-061_ct_trans.nii.gz",
+            "label": "gtvt/MDA-061_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-007_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-007_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-016_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-016_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-045_ct_trans.nii.gz",
+            "label": "gtvt/MDA-045_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-038_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-038_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-191_ct_trans.nii.gz",
+            "label": "gtvt/MDA-191_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-022_ct_trans.nii.gz",
+            "label": "gtvt/MDA-022_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-066_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-066_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-019_ct_trans.nii.gz",
+            "label": "gtvt/MDA-019_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-125_ct_trans.nii.gz",
+            "label": "gtvt/MDA-125_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-017_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-017_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-046_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-046_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-016_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-016_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-088_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-088_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-050_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-050_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-088_ct_trans.nii.gz",
+            "label": "gtvt/MDA-088_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-032_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-032_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-075_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-075_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-053_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-053_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-074_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-074_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-074_ct_trans.nii.gz",
+            "label": "gtvt/MDA-074_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-051_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-051_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-107_ct_trans.nii.gz",
+            "label": "gtvt/MDA-107_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-091_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-091_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-015_ct_trans.nii.gz",
+            "label": "gtvt/MDA-015_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-065_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-065_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-031_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-031_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-119_ct_trans.nii.gz",
+            "label": "gtvt/MDA-119_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-127_ct_trans.nii.gz",
+            "label": "gtvt/MDA-127_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-025_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-025_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-006_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-006_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-040_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-040_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-091_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-091_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-025_ct_trans.nii.gz",
+            "label": "gtvt/HMR-025_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-091_ct_trans.nii.gz",
+            "label": "gtvt/MDA-091_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-083_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-083_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-166_ct_trans.nii.gz",
+            "label": "gtvt/MDA-166_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-196_ct_trans.nii.gz",
+            "label": "gtvt/MDA-196_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-085_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-085_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-129_ct_trans.nii.gz",
+            "label": "gtvt/MDA-129_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-016_ct_trans.nii.gz",
+            "label": "gtvt/HMR-016_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-065_ct_trans.nii.gz",
+            "label": "gtvt/MDA-065_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-008_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-008_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-090_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-090_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-074_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-074_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-038_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-038_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-014_ct_trans.nii.gz",
+            "label": "gtvt/HMR-014_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-064_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-064_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-001_ct_trans.nii.gz",
+            "label": "gtvt/HMR-001_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-017_ct_trans.nii.gz",
+            "label": "gtvt/MDA-017_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-060_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-060_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-031_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-031_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-004_ct_trans.nii.gz",
+            "label": "gtvt/HMR-004_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-080_ct_trans.nii.gz",
+            "label": "gtvt/MDA-080_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-083_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-083_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-013_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-013_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-062_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-062_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-064_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-064_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-045_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-045_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-076_ct_trans.nii.gz",
+            "label": "gtvt/MDA-076_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-029_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-029_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-023_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-023_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-044_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-044_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-057_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-057_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-060_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-060_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-096_ct_trans.nii.gz",
+            "label": "gtvt/MDA-096_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-181_ct_trans.nii.gz",
+            "label": "gtvt/MDA-181_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-089_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-089_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-005_ct_trans.nii.gz",
+            "label": "gtvt/HMR-005_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-074_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-074_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-157_ct_trans.nii.gz",
+            "label": "gtvt/MDA-157_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-012_ct_trans.nii.gz",
+            "label": "gtvt/MDA-012_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-086_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-086_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-034_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-034_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-049_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-049_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-077_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-077_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-036_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-036_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-010_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-010_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-003_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-003_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-073_ct_trans.nii.gz",
+            "label": "gtvt/MDA-073_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-030_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-030_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-016_ct_trans.nii.gz",
+            "label": "gtvt/MDA-016_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-027_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-027_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-073_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-073_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-056_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-056_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-070_ct_trans.nii.gz",
+            "label": "gtvt/MDA-070_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-081_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-081_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-120_ct_trans.nii.gz",
+            "label": "gtvt/MDA-120_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-046_ct_trans.nii.gz",
+            "label": "gtvt/MDA-046_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-063_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-063_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-035_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-035_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-042_ct_trans.nii.gz",
+            "label": "gtvt/MDA-042_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-041_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-041_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-090_ct_trans.nii.gz",
+            "label": "gtvt/MDA-090_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-039_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-039_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-100_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-100_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-004_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-004_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-147_ct_trans.nii.gz",
+            "label": "gtvt/MDA-147_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-041_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-041_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-008_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-008_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-097_ct_trans.nii.gz",
+            "label": "gtvt/MDA-097_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-058_ct_trans.nii.gz",
+            "label": "gtvt/MDA-058_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-041_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-041_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-011_ct_trans.nii.gz",
+            "label": "gtvt/HMR-011_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-017_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-017_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-003_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-003_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-046_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-046_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-185_ct_trans.nii.gz",
+            "label": "gtvt/MDA-185_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-039_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-039_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-049_ct_trans.nii.gz",
+            "label": "gtvt/MDA-049_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-048_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-048_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-071_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-071_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-019_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-019_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-201_ct_trans.nii.gz",
+            "label": "gtvt/MDA-201_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-158_ct_trans.nii.gz",
+            "label": "gtvt/MDA-158_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-030_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-030_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-007_ct_trans.nii.gz",
+            "label": "gtvt/MDA-007_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-021_ct_trans.nii.gz",
+            "label": "gtvt/MDA-021_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-097_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-097_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-020_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-020_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-051_ct_trans.nii.gz",
+            "label": "gtvt/MDA-051_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-054_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-054_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-086_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-086_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-053_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-053_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-045_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-045_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-052_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-052_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-045_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-045_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-033_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-033_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-180_ct_trans.nii.gz",
+            "label": "gtvt/MDA-180_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-071_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-071_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-005_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-005_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-033_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-033_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-020_ct_trans.nii.gz",
+            "label": "gtvt/HMR-020_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-052_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-052_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-040_ct_trans.nii.gz",
+            "label": "gtvt/MDA-040_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-064_ct_trans.nii.gz",
+            "label": "gtvt/MDA-064_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-055_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-055_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-039_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-039_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-138_ct_trans.nii.gz",
+            "label": "gtvt/MDA-138_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-011_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-011_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-087_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-087_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-014_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-014_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-067_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-067_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-040_ct_trans.nii.gz",
+            "label": "gtvt/HMR-040_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-039_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-039_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-010_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-010_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-026_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-026_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-024_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-024_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-159_ct_trans.nii.gz",
+            "label": "gtvt/MDA-159_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-047_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-047_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-081_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-081_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-050_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-050_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-004_ct_trans.nii.gz",
+            "label": "gtvt/MDA-004_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-067_ct_trans.nii.gz",
+            "label": "gtvt/MDA-067_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-011_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-011_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-178_ct_trans.nii.gz",
+            "label": "gtvt/MDA-178_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-153_ct_trans.nii.gz",
+            "label": "gtvt/MDA-153_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-099_ct_trans.nii.gz",
+            "label": "gtvt/MDA-099_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-042_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-042_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-005_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-005_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-021_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-021_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-134_ct_trans.nii.gz",
+            "label": "gtvt/MDA-134_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-030_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-030_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-085_ct_trans.nii.gz",
+            "label": "gtvt/MDA-085_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-039_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-039_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-073_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-073_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-019_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-019_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-012_ct_trans.nii.gz",
+            "label": "gtvt/HMR-012_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-199_ct_trans.nii.gz",
+            "label": "gtvt/MDA-199_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-131_ct_trans.nii.gz",
+            "label": "gtvt/MDA-131_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-002_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-002_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-019_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-019_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-136_ct_trans.nii.gz",
+            "label": "gtvt/MDA-136_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-162_ct_trans.nii.gz",
+            "label": "gtvt/MDA-162_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-106_ct_trans.nii.gz",
+            "label": "gtvt/MDA-106_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-051_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-051_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-026_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-026_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-121_ct_trans.nii.gz",
+            "label": "gtvt/MDA-121_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-012_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-012_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-123_ct_trans.nii.gz",
+            "label": "gtvt/MDA-123_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-034_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-034_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-053_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-053_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-087_ct_trans.nii.gz",
+            "label": "gtvt/MDA-087_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-028_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-028_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-013_ct_trans.nii.gz",
+            "label": "gtvt/MDA-013_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-024_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-024_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-103_ct_trans.nii.gz",
+            "label": "gtvt/MDA-103_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-048_ct_trans.nii.gz",
+            "label": "gtvt/MDA-048_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-100_ct_trans.nii.gz",
+            "label": "gtvt/MDA-100_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-041_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-041_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-066_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-066_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-169_ct_trans.nii.gz",
+            "label": "gtvt/MDA-169_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-047_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-047_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-018_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-018_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-065_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-065_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-015_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-015_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-101_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-101_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-055_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-055_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-043_ct_trans.nii.gz",
+            "label": "gtvt/MDA-043_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-038_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-038_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-062_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-062_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-192_ct_trans.nii.gz",
+            "label": "gtvt/MDA-192_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-141_ct_trans.nii.gz",
+            "label": "gtvt/MDA-141_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-193_ct_trans.nii.gz",
+            "label": "gtvt/MDA-193_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-071_ct_trans.nii.gz",
+            "label": "gtvt/MDA-071_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-104_ct_trans.nii.gz",
+            "label": "gtvt/MDA-104_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-164_ct_trans.nii.gz",
+            "label": "gtvt/MDA-164_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-029_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-029_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-046_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-046_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-056_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-056_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-188_ct_trans.nii.gz",
+            "label": "gtvt/MDA-188_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-073_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-073_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-028_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-028_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-025_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-025_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-062_ct_trans.nii.gz",
+            "label": "gtvt/MDA-062_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-049_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-049_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-051_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-051_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-046_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-046_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-026_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-026_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-040_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-040_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-003_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-003_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-027_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-027_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-000_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-000_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-094_ct_trans.nii.gz",
+            "label": "gtvt/MDA-094_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-033_ct_trans.nii.gz",
+            "label": "gtvt/MDA-033_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-035_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-035_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-022_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-022_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-013_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-013_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-007_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-007_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-052_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-052_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-179_ct_trans.nii.gz",
+            "label": "gtvt/MDA-179_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-066_ct_trans.nii.gz",
+            "label": "gtvt/MDA-066_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-057_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-057_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-092_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-092_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-055_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-055_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-014_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-014_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-109_ct_trans.nii.gz",
+            "label": "gtvt/MDA-109_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-186_ct_trans.nii.gz",
+            "label": "gtvt/MDA-186_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-018_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-018_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-015_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-015_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-029_ct_trans.nii.gz",
+            "label": "gtvt/HMR-029_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-155_ct_trans.nii.gz",
+            "label": "gtvt/MDA-155_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-030_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-030_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-070_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-070_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-006_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-006_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-044_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-044_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-132_ct_trans.nii.gz",
+            "label": "gtvt/MDA-132_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-072_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-072_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-013_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-013_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-023_ct_trans.nii.gz",
+            "label": "gtvt/HMR-023_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-079_ct_trans.nii.gz",
+            "label": "gtvt/MDA-079_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-093_ct_trans.nii.gz",
+            "label": "gtvt/MDA-093_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-037_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-037_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-194_ct_trans.nii.gz",
+            "label": "gtvt/MDA-194_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-077_ct_trans.nii.gz",
+            "label": "gtvt/MDA-077_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-028_ct_trans.nii.gz",
+            "label": "gtvt/MDA-028_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-008_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-008_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-030_ct_trans.nii.gz",
+            "label": "gtvt/MDA-030_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-012_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-012_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-043_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-043_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-068_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-068_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-096_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-096_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-133_ct_trans.nii.gz",
+            "label": "gtvt/MDA-133_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-055_ct_trans.nii.gz",
+            "label": "gtvt/MDA-055_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-037_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-037_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-034_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-034_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-114_ct_trans.nii.gz",
+            "label": "gtvt/MDA-114_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-200_ct_trans.nii.gz",
+            "label": "gtvt/MDA-200_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-066_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-066_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-068_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-068_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-089_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-089_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-048_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-048_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-050_ct_trans.nii.gz",
+            "label": "gtvt/MDA-050_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-081_ct_trans.nii.gz",
+            "label": "gtvt/MDA-081_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-029_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-029_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-069_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-069_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-030_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-030_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-190_ct_trans.nii.gz",
+            "label": "gtvt/MDA-190_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-040_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-040_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-050_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-050_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-037_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-037_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-044_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-044_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-050_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-050_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-003_ct_trans.nii.gz",
+            "label": "gtvt/MDA-003_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-126_ct_trans.nii.gz",
+            "label": "gtvt/MDA-126_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-137_ct_trans.nii.gz",
+            "label": "gtvt/MDA-137_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-170_ct_trans.nii.gz",
+            "label": "gtvt/MDA-170_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-043_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-043_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-112_ct_trans.nii.gz",
+            "label": "gtvt/MDA-112_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-006_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-006_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-046_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-046_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-051_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-051_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-161_ct_trans.nii.gz",
+            "label": "gtvt/MDA-161_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-007_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-007_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-023_ct_trans.nii.gz",
+            "label": "gtvt/MDA-023_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-016_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-016_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-108_ct_trans.nii.gz",
+            "label": "gtvt/MDA-108_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-008_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-008_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-098_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-098_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-098_ct_trans.nii.gz",
+            "label": "gtvt/MDA-098_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-035_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-035_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-013_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-013_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-033_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-033_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-053_ct_trans.nii.gz",
+            "label": "gtvt/MDA-053_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-054_ct_trans.nii.gz",
+            "label": "gtvt/MDA-054_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-172_ct_trans.nii.gz",
+            "label": "gtvt/MDA-172_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-039_ct_trans.nii.gz",
+            "label": "gtvt/MDA-039_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-026_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-026_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-026_ct_trans.nii.gz",
+            "label": "gtvt/MDA-026_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-048_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-048_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-043_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-043_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-148_ct_trans.nii.gz",
+            "label": "gtvt/MDA-148_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-087_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-087_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-068_ct_trans.nii.gz",
+            "label": "gtvt/MDA-068_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-102_ct_trans.nii.gz",
+            "label": "gtvt/MDA-102_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-061_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-061_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-052_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-052_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-001_ct_trans.nii.gz",
+            "label": "gtvt/MDA-001_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-152_ct_trans.nii.gz",
+            "label": "gtvt/MDA-152_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-021_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-021_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-033_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-033_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-014_ct_trans.nii.gz",
+            "label": "gtvt/MDA-014_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-168_ct_trans.nii.gz",
+            "label": "gtvt/MDA-168_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-024_ct_trans.nii.gz",
+            "label": "gtvt/HMR-024_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-101_ct_trans.nii.gz",
+            "label": "gtvt/MDA-101_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-018_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-018_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-084_ct_trans.nii.gz",
+            "label": "gtvt/MDA-084_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-017_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-017_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-174_ct_trans.nii.gz",
+            "label": "gtvt/MDA-174_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-154_ct_trans.nii.gz",
+            "label": "gtvt/MDA-154_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-072_ct_trans.nii.gz",
+            "label": "gtvt/MDA-072_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-144_ct_trans.nii.gz",
+            "label": "gtvt/MDA-144_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-027_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-027_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-075_ct_trans.nii.gz",
+            "label": "gtvt/MDA-075_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-023_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-023_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-056_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-056_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-062_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-062_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-024_ct_trans.nii.gz",
+            "label": "gtvt/MDA-024_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-058_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-058_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-049_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-049_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-009_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-009_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-078_ct_trans.nii.gz",
+            "label": "gtvt/MDA-078_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-175_ct_trans.nii.gz",
+            "label": "gtvt/MDA-175_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-160_ct_trans.nii.gz",
+            "label": "gtvt/MDA-160_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-076_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-076_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-083_ct_trans.nii.gz",
+            "label": "gtvt/MDA-083_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-015_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-015_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-122_ct_trans.nii.gz",
+            "label": "gtvt/MDA-122_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-010_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-010_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-010_ct_trans.nii.gz",
+            "label": "gtvt/MDA-010_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-057_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-057_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-078_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-078_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-021_ct_trans.nii.gz",
+            "label": "gtvt/HMR-021_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-047_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-047_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-067_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-067_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-035_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-035_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-058_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-058_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-111_ct_trans.nii.gz",
+            "label": "gtvt/MDA-111_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-024_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-024_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-182_ct_trans.nii.gz",
+            "label": "gtvt/MDA-182_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-061_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-061_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-151_ct_trans.nii.gz",
+            "label": "gtvt/MDA-151_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-030_ct_trans.nii.gz",
+            "label": "gtvt/HMR-030_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-011_ct_trans.nii.gz",
+            "label": "gtvt/MDA-011_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-009_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-009_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-171_ct_trans.nii.gz",
+            "label": "gtvt/MDA-171_gtvt_trans.nii.gz"
+        }
+    ],
+    "test": [
+        {
+            "image": "ct/CHUV-048_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-048_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-058_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-058_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-015_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-015_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-004_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-004_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-116_ct_trans.nii.gz",
+            "label": "gtvt/MDA-116_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-034_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-034_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-044_ct_trans.nii.gz",
+            "label": "gtvt/MDA-044_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-065_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-065_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-115_ct_trans.nii.gz",
+            "label": "gtvt/MDA-115_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-036_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-036_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-036_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-036_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-010_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-010_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-095_ct_trans.nii.gz",
+            "label": "gtvt/MDA-095_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-034_ct_trans.nii.gz",
+            "label": "gtvt/HMR-034_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-072_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-072_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-086_ct_trans.nii.gz",
+            "label": "gtvt/MDA-086_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-058_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-058_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-080_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-080_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-009_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-009_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-060_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-060_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-006_ct_trans.nii.gz",
+            "label": "gtvt/MDA-006_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-187_ct_trans.nii.gz",
+            "label": "gtvt/MDA-187_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-070_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-070_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-020_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-020_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-060_ct_trans.nii.gz",
+            "label": "gtvt/MDA-060_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-078_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-078_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-041_ct_trans.nii.gz",
+            "label": "gtvt/MDA-041_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-022_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-022_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-029_ct_trans.nii.gz",
+            "label": "gtvt/MDA-029_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-026_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-026_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-061_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-061_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-042_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-042_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-059_ct_trans.nii.gz",
+            "label": "gtvt/MDA-059_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-022_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-022_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-036_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-036_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-065_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-065_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-025_ct_trans.nii.gz",
+            "label": "gtvt/MDA-025_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-167_ct_trans.nii.gz",
+            "label": "gtvt/MDA-167_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-110_ct_trans.nii.gz",
+            "label": "gtvt/MDA-110_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-077_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-077_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-038_ct_trans.nii.gz",
+            "label": "gtvt/MDA-038_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-053_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-053_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-050_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-050_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-025_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-025_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-002_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-002_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-198_ct_trans.nii.gz",
+            "label": "gtvt/MDA-198_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-005_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-005_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-032_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-032_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-056_ct_trans.nii.gz",
+            "label": "gtvt/MDA-056_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-063_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-063_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-197_ct_trans.nii.gz",
+            "label": "gtvt/MDA-197_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-047_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-047_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-042_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-042_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-067_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-067_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-028_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-028_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HMR-028_ct_trans.nii.gz",
+            "label": "gtvt/HMR-028_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-040_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-040_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-043_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-043_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-053_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-053_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-124_ct_trans.nii.gz",
+            "label": "gtvt/MDA-124_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-043_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-043_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-173_ct_trans.nii.gz",
+            "label": "gtvt/MDA-173_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-130_ct_trans.nii.gz",
+            "label": "gtvt/MDA-130_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-069_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-069_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-015_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-015_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-057_ct_trans.nii.gz",
+            "label": "gtvt/MDA-057_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-042_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-042_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-184_ct_trans.nii.gz",
+            "label": "gtvt/MDA-184_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-034_ct_trans.nii.gz",
+            "label": "gtvt/MDA-034_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-142_ct_trans.nii.gz",
+            "label": "gtvt/MDA-142_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUS-090_ct_trans.nii.gz",
+            "label": "gtvt/CHUS-090_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-001_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-001_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUP-001_ct_trans.nii.gz",
+            "label": "gtvt/CHUP-001_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/HGJ-013_ct_trans.nii.gz",
+            "label": "gtvt/HGJ-013_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUV-049_ct_trans.nii.gz",
+            "label": "gtvt/CHUV-049_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/CHUM-035_ct_trans.nii.gz",
+            "label": "gtvt/CHUM-035_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-047_ct_trans.nii.gz",
+            "label": "gtvt/MDA-047_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-020_ct_trans.nii.gz",
+            "label": "gtvt/MDA-020_gtvt_trans.nii.gz"
+        },
+        {
+            "image": "ct/MDA-143_ct_trans.nii.gz",
+            "label": "gtvt/MDA-143_gtvt_trans.nii.gz"
+        }
+    ]
+}

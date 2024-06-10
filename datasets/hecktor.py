@@ -24,10 +24,10 @@ from .samplers import Sampler
 from sklearn.model_selection import train_test_split
 
 def get_loader_hecktor(args):
-    data_dir = args.data_dir #e.g. /home/numansaeed/Projects/PCT-Net/dataset/HECKTOR/1_1_1_s176v2/
+    data_dir = args.data_dir #e.g. dataset/HECKTOR/1_1_1_s176v2/
 
 
-    datalist_json = os.path.join(args.json_list)
+    datalist_json = os.path.join(data_dir, args.json_list)
 
     # Load the data from the JSON file
     with open(datalist_json, 'r') as f:

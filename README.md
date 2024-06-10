@@ -63,6 +63,7 @@ pip install -r req.txt
 3. ACDC: `acdc`
 4. Abdomen-CT: `abdomen`
 
+Copy the json files from `json_files` folder to the respective dataset folder.
 
 ## A. Training of Volumetric Segmentation Models
 
@@ -80,7 +81,7 @@ pip install -r req.txt
 --batch_size=3 --max_epochs 5000 --optim_lr=1e-4 --lrschedule=warmup_cosine --infer_overlap=0.5 --val_every 15 --save_model_dir="./Results"
 
 # Training  on Abdomen-CT dataset
- python training.py  --model_name <MODEL_NAME> --in_channels 1 --out_channel 14  --dataset abdomen --data_dir=<DATA_PATH> --json_list dataset.json 
+ python training.py  --model_name <MODEL_NAME> --in_channels 1 --out_channel 14  --dataset abdomen --data_dir=<DATA_PATH> --json_list dataset_abdomen.json 
 --batch_size=3 --max_epochs 5000 --optim_lr=1e-4 --lrschedule=warmup_cosine --infer_overlap=0.5 --val_every 15 --save_model_dir="./Results"
 ```
 Follwing arguments can be passed for `--model_name`: `unet, unetr, swin_unetr, seg_resnet, umamba_bot, umamba_enc`
