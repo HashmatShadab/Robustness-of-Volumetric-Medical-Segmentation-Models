@@ -32,8 +32,25 @@ and [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&h
 > training of volumetric segmentation models improves the model's robustness against adversarial attacks.  
 
 
+## Contents
+
+1) [Installation](#Installation)
+2) [Available Model and Datasets](#Available-Model-and-Datasets)
+3) [Training of Volumetric Segmentation Models](#Training-of-Volumetric-Segmentation-Models)
+4) [Robustness against White-Box Attacks](#Robustness-against-White-Box-Attacks)
+5) [Robustness against Transfer-Based Black-Box Attacks](#Robustness-against-Transfer-Based-Black-Box-Attacks)
+6) [BibTeX](#bibtex)
+
+<hr>
+<hr>
+
+
+
 
 ## Installation
+
+<sup>([top](#contents))</sup>
+
 ```python
 
 conda create -n med3d python=3.10
@@ -48,7 +65,9 @@ pip install monai==1.3.0
 pip install -r req.txt
 ```
 
-## **Available  Volumetric Segmentation models:**
+## **Available Model and Datasets:**
+
+### Models available:
 1. UNet : `unet`
 2. UNETR : `unetr`
 3. Swin-UNETR : `swin_unetr`
@@ -57,7 +76,7 @@ pip install -r req.txt
 6. UMamba-E : `umamba_enc`
 
 
-## Datasets available
+### Datasets available:
 1. BTCV: `btcv` 
 2. Hecktor: `hecktor`
 3. ACDC: `acdc`
@@ -239,13 +258,14 @@ bash scripts/abdomen/transferability.sh
 
 
 
+<a name="bibtex"/>
 
-## Citation
-If you use our work, please consider citing:
-```bibtex 
+## 📚 BibTeX
+
+```bibtex
 
 ```
-
+<a name="license"/>
 <hr />
 
 ## Contact
