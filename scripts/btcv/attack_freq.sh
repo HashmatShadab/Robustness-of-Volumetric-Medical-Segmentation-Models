@@ -40,7 +40,7 @@ for ((j=0; j<6; j++)); do
 
 
   # Loop over all the folders in parent directory starting with "Adv"
-  for adv_dir in $model_parent_dir/Adv*/btcv/*eps_8*; do
+  for adv_dir in $model_parent_dir/Adv*/btcv/*; do
     # run code only if the folder exists
     if [ -d "$adv_dir" ]; then
 
@@ -88,57 +88,5 @@ for ((j=0; j<6; j++)); do
     fi
 
     done
-
-
-  for adv_dir in $model_parent_dir/Adv*/btcv/*q_max_30*; do
-    # run code only if the folder exists
-    if [ -d "$adv_dir" ]; then
-
-      echo "Evaluating $model_name on Adversarial Images in $adv_dir"
-      python inference_on_adv_images_freq.py --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-      --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size 6  \
-      --adv_imgs_dir $adv_dir --filter band --lower_limit 0 --upper_limit 8
-
-      python inference_on_adv_images_freq.py --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-      --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size 6  \
-      --adv_imgs_dir $adv_dir --filter band --lower_limit 0 --upper_limit 16
-
-      python inference_on_adv_images_freq.py --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-      --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size 6  \
-      --adv_imgs_dir $adv_dir --filter band --lower_limit 0 --upper_limit 32
-
-      python inference_on_adv_images_freq.py --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-      --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size 6  \
-      --adv_imgs_dir $adv_dir --filter band --lower_limit 2 --upper_limit 64
-
-      python inference_on_adv_images_freq.py --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-      --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size 6  \
-      --adv_imgs_dir $adv_dir --filter band --lower_limit 8 --upper_limit 96
-
-      python inference_on_adv_images_freq.py --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-      --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size 6  \
-      --adv_imgs_dir $adv_dir --filter band --lower_limit 16 --upper_limit 96
-
-      python inference_on_adv_images_freq.py --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-      --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size 6  \
-      --adv_imgs_dir $adv_dir --filter band --lower_limit 32 --upper_limit 96
-
-
-      python inference_on_adv_images_freq.py --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-      --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size 6  \
-      --adv_imgs_dir $adv_dir --filter band --lower_limit 16 --upper_limit 48
-
-
-      python inference_on_adv_images_freq.py --model_name $model_name --pos_embed conv  --in_channels 1 --out_channel 14 --feature_size=16 --checkpoint_path $ckpt_path \
-      --dataset btcv --data_dir=$DATA_DIR --json_list $JSON_LIST --slice_batch_size 6  \
-      --adv_imgs_dir $adv_dir --filter band --lower_limit 32 --upper_limit 64
-
-
-      echo "-------------------------------------------------------------------------------------------"
-    fi
-
-    done
-
 
 done
-

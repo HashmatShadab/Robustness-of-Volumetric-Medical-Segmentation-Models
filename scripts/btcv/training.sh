@@ -3,8 +3,7 @@
 
 DATA_DIR="E:\Projects_May2024\AdvTransferMed3D\datasets3d\btcv-synapse"
 JSON_LIST="dataset_synapse_18_12.json"
-# Baseline Training of models on BTCV and Adv. Training (PGD-K, FGSM, GN, VAFA-3D) on BTCV
-# unetr models for btcv are trained with pos_embed to conv
+# Baseline Training of models on BTCV
 
 
 echo "Running Natural Training on BTCV for UNET"
