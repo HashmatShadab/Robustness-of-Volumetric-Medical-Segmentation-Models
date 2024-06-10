@@ -16,9 +16,15 @@ and [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&h
 
 [//]: # ([![slides]&#40;https://img.shields.io/badge/Poster-PDF-87CEEB&#41;]&#40;https://drive.google.com/file/d/1neYZca0KRIBCu5R6P78aQMYJa7R2aTFs/view?usp=share_link&#41;)
 [//]: # ([![slides]&#40;https://img.shields.io/badge/Presentation-Slides-B762C1&#41;]&#40;https://drive.google.com/file/d/1wRgCs2uBO0p10FC75BKDUEdggz_GO9Oq/view?usp=share_link&#41;)
+Official PyTorch implementation
 
 <hr />
 
+
+# :rocket: News
+* **(June 11, 2024)**
+  * Training and evaluation codes are released.
+<hr />
 
 
 > **Abstract:** Volumetric medical segmentation models have achieved significant success on organ and tumor-based segmentation tasks in recent years.
