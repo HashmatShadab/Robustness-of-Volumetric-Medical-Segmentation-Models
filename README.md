@@ -197,32 +197,42 @@ The evaluation logs will be saved in the same folder as from where the adversari
 
 ### 3. Transfer-based Black box Attacks
 
-For evaluating transferability of adversarial examples, first save the generated adversarial examples by running:
+After generating adversarial examples using the above scripts, the transferability of adversarial examples can be reported by evaluating them on any other model trained on the same dataset.
+To evaluate any model on the adversarial examples, run the following script:
 
 ```python
-cd  classification/
-python generate_adv_images.py --data_dir <path to dataset> --attack_name fgsm  --source_model_name <model_name> --epsilon 8 --save_results_only False  
+# Transferability on BTCV adversarial examples
+python inference_on_adv_images.py --model_name <MODEL_NAME>  --in_channels 1 --out_channel 14  --checkpoint_path <BTCV_MODEL_CKPT_PATH> --dataset btcv 
+--data_dir=<ORIG_BTCV_DATA_PATH> --json_list dataset_synapse_18_12.json  --adv_imgs_dir <PATH_TO_BTCV_ADVERSARIAL_IMAGES>
+
+# Transferability on Hecktor adversarial examples
+python inference_on_adv_images.py --model_name <MODEL_NAME>  --in_channels 1 --out_channel 3  --checkpoint_path <HECKTOR_MODEL_CKPT_PATH> --dataset hecktor
+--data_dir=<ORIG_HECKTOR_DATA_PATH> --json_list dataset_hecktor.json  --adv_imgs_dir <PATH_TO_HECKTOR_ADVERSARIAL_IMAGES>
+
+# Transferability on ACDC adversarial examples
+python inference_on_adv_images.py --model_name <MODEL_NAME>  --in_channels 1 --out_channel 4  --checkpoint_path <ACDC_MODEL_CKPT_PATH> --dataset acdc
+--data_dir=<ORIG_ACDC_DATA_PATH> --json_list dataset_acdc_140_20_.json  --adv_imgs_dir <PATH_TO_ACDC_ADVERSARIAL_IMAGES>
+
+# Transferability on Abdomen-CT adversarial examples
+python inference_on_adv_images.py --model_name <MODEL_NAME>  --in_channels 1 --out_channel 14  --checkpoint_path <ABDOMEN_MODEL_CKPT_PATH> --dataset abdomen
+--data_dir=<ORIG_ABDOMEN_DATA_PATH> --json_list dataset_abdomen.json  --adv_imgs_dir <PATH_TO_ABDOMEN_ADVERSARIAL_IMAGES>
 ```
 
-The adversarial examples will be saved in  `AdvExamples` folder with the following structure: `AdvExamples/{attack_name}_eps_{eps}_steps_{step}/{source_model_name}/images_labels.pt`
 
-Then run the below script to evaluate transferability of the generated adversarial examples across different models:
 
+Furthermore, bash scripts are provided to evaluate transferability of adversarial examples across different models(given the adversarial examples are generated first across all models and datasets):
 ```python
-cd  classification/
-python inference.py --dataset imagenet_adv --data_dir <path to adversarial dataset> --batch_size <> --source_model_name <model name>
-```
-`--source_model_name`: name of the model on which the adversarial examples will be evaluated
+# Transferability of BTCV adversarial examples across all models
+bash scripts/btcv/transferability.sh
 
+# Transferability of Hecktor adversarial examples across all models
+bash scripts/hecktor/transferability.sh
 
+# Transferability of ACDC adversarial examples across all models
+bash scripts/acdc/transferability.sh
 
-Furthermore, bash scripts are provided to evaluate transferability of adversarial examples across different models:
-```python
-cd  classification/
-# Generate adversarial examples
-bash scripts/gen_adv_examples.sh <DATA_PATH> <EPSILON> <ATTACK_NAME> <BATCH_SIZE>
-# Evaluate transferability of adversarial examples saved in AdvExamples folder
-bash scripts/evaluate_transferability.sh <DATA_PATH> <EPSILON> <ATTACK_NAME> <BATCH_SIZE>
+# Transferability of Abdomen-CT adversarial examples across all models
+bash scripts/abdomen/transferability.sh
 ```
 
 
