@@ -80,7 +80,7 @@ pip install -r req.txt
 1. UNet : `unet`
 2. UNETR : `unetr`
 3. Swin-UNETR : `swin_unetr`
-4. SegResNet : `seg_resnet`
+4. SegResNet : `segresnet`
 5. UMamba-B : `umamba_bot`
 6. UMamba-E : `umamba_enc`
 
