@@ -35,7 +35,7 @@ and [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&h
 ## Contents
 
 1) [Installation](#Installation)
-2) [Available Model and Datasets](#Available-Model-and-Datasets)
+2) [Available Models and Datasets](#Available-Models-and-Datasets)
 3) [Training of Volumetric Segmentation Models](#Training-of-Volumetric-Segmentation-Models)
 4) [Robustness against White-Box Attacks](#Robustness-against-White-Box-Attacks)
 5) [Robustness against Transfer-Based Black-Box Attacks](#Robustness-against-Transfer-Based-Black-Box-Attacks)
@@ -46,10 +46,9 @@ and [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&h
 
 
 
+<a name="Installation"/>
 
-## Installation
-
-<sup>([top](#contents))</sup>
+## 💿 Installation
 
 ```python
 
@@ -65,7 +64,9 @@ pip install monai==1.3.0
 pip install -r req.txt
 ```
 
-## **Available Model and Datasets:**
+<a name="Available-Models-and-Datasets"/>
+
+## 🏁 Available Models and Datasets
 
 ### Models available:
 1. UNet : `unet`
