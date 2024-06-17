@@ -281,7 +281,12 @@ The evaluation logs for target models will be saved in the same folder as from w
 ## 📚 BibTeX
 
 ```bibtex
-
+@article{malik2024evaluating,
+  title={On Evaluating Adversarial Robustness of Volumetric Medical Segmentation Models},
+  author={Malik, Hashmat Shadab and Saeed, Numan and Hanif, Asif and Naseer, Muzammal and Yaqub, Mohammad and Khan, Salman and Khan, Fahad Shahbaz},
+  journal={arXiv preprint arXiv:2406.08486},
+  year={2024}
+}
 ```
 
 <hr />
