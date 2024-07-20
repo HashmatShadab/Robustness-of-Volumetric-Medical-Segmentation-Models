@@ -1,4 +1,4 @@
-# **On Evaluating Adversarial Robustness of Volumetric Medical Segmentation Models**
+# **On Evaluating Adversarial Robustness of Volumetric Medical Segmentation Models [BMVC 2024]**
 
 [Hashmat Shadab Malik](https://github.com/HashmatShadab), 
 [ Numan Saeed](https://github.com/numanai),
@@ -20,6 +20,8 @@ Official PyTorch implementation
 
 
 # :fire: News
+* **(July 20, 2024)**
+  * Paper accepted at BMVC 2024!🎊
 * **(June 11, 2024)**
   * Training and evaluation codes are released.
 <hr />
